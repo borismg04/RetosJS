@@ -12,7 +12,7 @@ const anagrama = (palabra1, palabra2) => {
 
   let palabra1Array = palabra1.toLowerCase().split('').sort();
   let palabra2Array = palabra2.toLowerCase().split('').sort();
-
+  
   palabra1Array = palabra1Array.join('');
   palabra2Array = palabra2Array.join('');
 
@@ -23,7 +23,7 @@ const anagrama = (palabra1, palabra2) => {
   }
 }
 
-console.log(anagrama('hola', 'aloh'));
+console.log(anagrama('Hola', 'Aloh'));
 console.log(anagrama('amor', 'roma'));
 console.log(anagrama('rata', 'tara'));
 console.log(anagrama('casco', 'saco'));
@@ -40,6 +40,8 @@ console.log(anagrama('casco', 'saco'));
   Ejemplo :
   let cadena = 'Hola Mundo';
   let cadenaArray = cadena.split(' ');
+  console.log(cadenaArray);
+  // Resultado : ['Hola', 'Mundo']
   cadenaArray = cadenaArray.sort();
   console.log(cadenaArray);
   // Resultado : ['Hola', 'Mundo']
@@ -48,7 +50,11 @@ console.log(anagrama('casco', 'saco'));
   Ejemplo :
   let cadena = 'Hola Mundo';
   let cadenaArray = cadena.split(' ');
+  console.log(cadenaArray);
+  // Resultado : ['Hola', 'Mundo']
   cadenaArray = cadenaArray.sort();
+  console.log(cadenaArray);
+  // Resultado : ['Hola', 'Mundo']
   cadenaArray = cadenaArray.join('');
   console.log(cadenaArray);
   // Resultado : 'HolaMundo'
