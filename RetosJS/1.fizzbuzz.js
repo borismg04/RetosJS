@@ -15,7 +15,7 @@ Reto #0
   - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
 */
 
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 100; i++) {
   let multiplo3 = i % 3 == 0
   let multiplo5 = i % 5 == 0
 
@@ -30,8 +30,8 @@ for (let i = 1; i <= 10; i++) {
   }
 
   console.log('----------------');
-  console.log('recorrido , i',i);
-  console.log('porcentaje % i',i%3);
+  console.log('recorrido , i=',i);
+  console.log('porcentaje i%3 ',i%3);
   console.log('comparacion i',i%3==0);
   console.log('----------------');
 }
