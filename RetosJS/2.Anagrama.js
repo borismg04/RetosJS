@@ -31,20 +31,20 @@ console.log(anagrama('casco', 'saco'));
 /*Notas : 
   Metodo SPLIT : divide un objeto de tipo String en un array de strings, separando la cadena en subcadenas.
   Ejemplo :
-  let cadena = 'Hola Mundo';
+  let cadena = 'Hola Aloh';
   let cadenaArray = cadena.split(' ');
   console.log(cadenaArray);
-  // Resultado : ['Hola', 'Mundo']
+  // Resultado : ['Hola', 'Aloh']
 
   Metodo SORT : ordena los elementos de un array y devuelve el array ordenado.
   Ejemplo :
-  let cadena = 'Hola Mundo';
+  let cadena = 'Hola Aloh';
   let cadenaArray = cadena.split(' ');
   console.log(cadenaArray);
-  // Resultado : ['Hola', 'Mundo']
+  // Resultado : ['Aloh', 'Hola']
   cadenaArray = cadenaArray.sort();
   console.log(cadenaArray);
-  // Resultado : ['Hola', 'Mundo']
+  // Resultado : ['Hola', 'Aloh']
 
   Metodo JOIN : une todos los elementos de un array (o un array-like object) en una cadena y devuelve esta cadena.
   Ejemplo :
