@@ -41,7 +41,5 @@ const fibonacciA = (limite) =>{
   return inicial;
 }
 
-const resultado = fibonacciA(10)
+const resultado = fibonacciA(1000)
 console.log(resultado);
-
-
